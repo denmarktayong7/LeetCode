@@ -29,7 +29,6 @@ class Solution {
         while (xLen >= 0) {
             double toAdd = (x % 10) * (Math.pow(10,xLen));
             output+=toAdd;
-            System.out.println(x + " " + xLen);
             x/=10;
             xLen--;
         }

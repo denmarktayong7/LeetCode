@@ -52,7 +52,7 @@ class Solution {
             else
                 l2Point = null;
             
-            //Check if l1 and l2 pointers are not null
+            //Check if l1 and l2 pointers are not null, else if carry is true, add a next ListNode with value 1
             if(l1Point != null || l2Point != null) {
                 lnPoint.next = new ListNode(0);
                 lnPoint = lnPoint.next;
